@@ -117,29 +117,11 @@ namespace TrigramGenerator
 
         private void BtnLoad_Click(object sender, EventArgs e)
         {
-    //        wxString path = _(".\\");
-    //        wxFileDialog fdialog(this, _("Load Text File"), path, _(""), _("Text Files (*.txt) |*.txt||"), wxFD_OPEN );
-
-    //        wxString filename;
-
-    //        if (fdialog.ShowModal() != wxID_OK)
-    //        {
-    //            return;
-    //        }
-
-    //        _txtInput->Clear();
-
-    //        wxString fname = fdialog.GetPath();
-
-    //        wxTextFile tfile;
-    //        tfile.Open(fname);
-    //        while (!tfile.Eof())
-    //        {
-    //            _txtInput->AppendText(tfile.GetNextLine() + "\n");
-    //        }
-    //        tfile.Close();
-
-    //event.Skip();
+            OpenFileDialog dialog = new OpenFileDialog();
+            if (dialog.ShowDialog() == DialogResult.OK)
+            {
+                txtInput.Text = System.IO.File.ReadAllText(dialog.FileName);
+            }
         }
     }
 }
