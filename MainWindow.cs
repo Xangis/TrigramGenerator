@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TrigramGenerator
 {
-    public partial class Form1 : Form
+    public partial class MainWindow : Form
     {
-        public Form1()
+        public MainWindow()
         {
             InitializeComponent();
         }
@@ -97,22 +97,9 @@ namespace TrigramGenerator
 }
 
         private void BtnAbout_Click(object sender, EventArgs e)
-        { 
-        //{
-        //    // Show about box.
-        //    wxAboutDialogInfo info;
-        //    info.SetName(_("Trigram Generator"));
-        //    info.SetVersion(_("1.2"));
-        //    info.SetCopyright(_("(c) 2006-2020 Lambda Centauri"));
-        //    info.AddDeveloper(_("Jason Champion"));
-        //    info.SetIcon(_icon);
-        //    info.SetLicense(_("This application is distributed under the terms of the MIT License."));
-        //    info.SetWebSite(_("https://github.com/Xangis/Trigram"));
-        //    info.SetDescription(_("Trigram Generator uses the wxWidgets libraries."));
-
-        //    wxAboutBox(info);
-
-        //     event.Skip();
+        {
+            About about = new About();
+            about.ShowDialog();
         }
 
         private void BtnLoad_Click(object sender, EventArgs e)
