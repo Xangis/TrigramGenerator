@@ -1,0 +1,15 @@
+﻿Version 2.0:
+
+- Complete rewrite using C# .NET 4.5.
+- Added load text button.
+- Will no longer generate blank words.
+
+Future revisions:
+
+- Drag-and-drop text file onto the window.
+- Maybe a save button for the output.
+- Better icon for the about box.
+
+Version 1.x:
+
+- Uses wxWdidgets.
