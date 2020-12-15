@@ -44,39 +44,36 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(15, 71);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(20, 106);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(58, 13);
+            this.label1.Size = new System.Drawing.Size(74, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Input Text:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 260);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(8, 346);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(66, 13);
+            this.label2.Size = new System.Drawing.Size(86, 17);
             this.label2.TabIndex = 1;
             this.label2.Text = "Output Text:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(71, 168);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(112, 224);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 13);
+            this.label3.Size = new System.Drawing.Size(81, 17);
             this.label3.TabIndex = 2;
             this.label3.Text = "# of Words:";
             // 
             // btnGenerate
             // 
-            this.btnGenerate.Location = new System.Drawing.Point(268, 163);
-            this.btnGenerate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnGenerate.Location = new System.Drawing.Point(374, 218);
+            this.btnGenerate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnGenerate.Name = "btnGenerate";
-            this.btnGenerate.Size = new System.Drawing.Size(64, 25);
+            this.btnGenerate.Size = new System.Drawing.Size(85, 31);
             this.btnGenerate.TabIndex = 3;
             this.btnGenerate.Text = "Generate";
             this.btnGenerate.UseVisualStyleBackColor = true;
@@ -84,10 +81,10 @@
             // 
             // btnAbout
             // 
-            this.btnAbout.Location = new System.Drawing.Point(337, 163);
-            this.btnAbout.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAbout.Location = new System.Drawing.Point(466, 218);
+            this.btnAbout.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAbout.Name = "btnAbout";
-            this.btnAbout.Size = new System.Drawing.Size(64, 25);
+            this.btnAbout.Size = new System.Drawing.Size(85, 31);
             this.btnAbout.TabIndex = 4;
             this.btnAbout.Text = "About";
             this.btnAbout.UseVisualStyleBackColor = true;
@@ -95,32 +92,32 @@
             // 
             // txtInput
             // 
-            this.txtInput.Location = new System.Drawing.Point(75, 11);
-            this.txtInput.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtInput.Location = new System.Drawing.Point(100, 14);
+            this.txtInput.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtInput.Multiline = true;
             this.txtInput.Name = "txtInput";
             this.txtInput.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtInput.Size = new System.Drawing.Size(326, 147);
+            this.txtInput.Size = new System.Drawing.Size(450, 200);
             this.txtInput.TabIndex = 5;
             this.txtInput.DragDrop += new System.Windows.Forms.DragEventHandler(this.txtInput_DragDrop);
             this.txtInput.DragEnter += new System.Windows.Forms.DragEventHandler(this.txtInput_DragEnter);
             // 
             // txtOutput
             // 
-            this.txtOutput.Location = new System.Drawing.Point(75, 192);
-            this.txtOutput.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtOutput.Location = new System.Drawing.Point(100, 253);
+            this.txtOutput.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtOutput.Multiline = true;
             this.txtOutput.Name = "txtOutput";
             this.txtOutput.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtOutput.Size = new System.Drawing.Size(326, 147);
+            this.txtOutput.Size = new System.Drawing.Size(450, 200);
             this.txtOutput.TabIndex = 6;
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(136, 167);
-            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericUpDown1.Location = new System.Drawing.Point(198, 223);
+            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(59, 20);
+            this.numericUpDown1.Size = new System.Drawing.Size(79, 22);
             this.numericUpDown1.TabIndex = 7;
             this.numericUpDown1.Value = new decimal(new int[] {
             10,
@@ -130,10 +127,10 @@
             // 
             // btnLoad
             // 
-            this.btnLoad.Location = new System.Drawing.Point(200, 163);
-            this.btnLoad.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnLoad.Location = new System.Drawing.Point(284, 218);
+            this.btnLoad.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnLoad.Name = "btnLoad";
-            this.btnLoad.Size = new System.Drawing.Size(64, 25);
+            this.btnLoad.Size = new System.Drawing.Size(85, 31);
             this.btnLoad.TabIndex = 8;
             this.btnLoad.Text = "Load";
             this.btnLoad.UseVisualStyleBackColor = true;
@@ -141,9 +138,9 @@
             // 
             // MainWindow
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(412, 347);
+            this.ClientSize = new System.Drawing.Size(563, 464);
             this.Controls.Add(this.btnLoad);
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.txtOutput);
@@ -153,8 +150,10 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MaximizeBox = false;
             this.Name = "MainWindow";
             this.Text = "Lambda Trigram Generator";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
